@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D64CE89F-108C-448C-89E0-284B32986F95}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TrilliumReportService</RootNamespace>
+    <AssemblyName>TrilliumReportService</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EncryptionManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Debug\EncryptionManager.dll</HintPath>
+    </Reference>
+    <Reference Include="HL7Test">
+      <HintPath>..\HL7Decoder\test\bin\Debug\net6.0\HL7Test.dll</HintPath>
+    </Reference>
+    <Reference Include="LoggerManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Debug\LoggerManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NHapi.Base, Version=3.2.0.0, Culture=neutral, PublicKeyToken=d0d8ea960a3440eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\nhapi.base.3.2.0\lib\net35\NHapi.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="NHapi.Model.V23, Version=3.2.0.0, Culture=neutral, PublicKeyToken=d0d8ea960a3440eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\nhapi.model.v23.3.2.0\lib\net35\NHapi.Model.V23.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.5.1.1\lib\net46\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADTMessageFactory.cs" />
+    <Compile Include="ADT_A08MessageBuilder.cs" />
+    <Compile Include="CommonData.cs" />
+    <Compile Include="Helper\ADTMessageFactory.cs" />
+    <Compile Include="Helper\HL7_JSON_Helper.cs" />
+    <Compile Include="Helper\MessageModel.cs" />
+    <Compile Include="Helper\ADT_A01MessageBuilder.cs" />
+    <Compile Include="Helper\ADT_A04MessageBuilder.cs" />
+    <Compile Include="Helper\ADT_A08MessageBuilder.cs" />
+    <Compile Include="Helper\Message.cs" />
+    <Compile Include="Helper\ORMMessageFactory.cs" />
+    <Compile Include="Helper\ORMMessageModel.cs" />
+    <Compile Include="Helper\ORM_001MessageBuilder.cs" />
+    <Compile Include="Helper\ORM_MessageBuilder.cs" />
+    <Compile Include="Helper\ORUMessageFactory.cs" />
+    <Compile Include="Helper\ORUMessageModel.cs" />
+    <Compile Include="Helper\ORU_R01MessageBuilder.cs" />
+    <Compile Include="Helper\Publisher.cs" />
+    <Compile Include="Helper\Segment.cs" />
+    <Compile Include="Helper\Subscriber.cs" />
+    <Compile Include="ModelHelper.cs" />
+    <Compile Include="ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectInstaller.Designer.cs">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TcpIpServerService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TcpIpServerService.Designer.cs">
+      <DependentUpon>TcpIpServerService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProjectInstaller.resx">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TcpIpServerService.resx">
+      <DependentUpon>TcpIpServerService.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\HttpManager.csproj">
+      <Project>{59ed45f5-9dc6-4a45-bc6c-f27dfc9843a9}</Project>
+      <Name>HttpManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HL7Decoder\src\HL7Decoder.csproj">
+      <Project>{1081cb07-02a5-4d4b-93c2-a53219842a7b}</Project>
+      <Name>HL7Decoder</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

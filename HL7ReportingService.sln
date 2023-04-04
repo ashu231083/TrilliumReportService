@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL7ReportingService", "HL7ReportingService\HL7ReportingService.csproj", "{77609D6F-2975-4FEA-B124-AAD8CC35B4A6}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HL7Reporting", "HL7Reporting\HL7Reporting.vdproj", "{5CFDE8F2-405B-40B7-B5B4-6B5FC1382950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpIpServerService", "TcpIpServerService\TcpIpServerService.csproj", "{D64CE89F-108C-448C-89E0-284B32986F95}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TcpListeningServiceSetup", "TcpListeningServiceSetup\TcpListeningServiceSetup.vdproj", "{9DA44190-61C2-4F5E-B130-E6F4F7F755A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriliumAgentDAL", "..\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\TriliumAgentDAL\TriliumAgentDAL.csproj", "{81E83E99-76F8-41C0-84B4-D964BC391F70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hl7v2ToJson", "HL7Serializer-master\HL7Serializer-master\Hl7v2ToJson\Hl7v2ToJson.csproj", "{4AC55433-F07F-47EE-AED3-546F74543BDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp", "WinFormsApp\WinFormsApp.csproj", "{5F586DC2-185A-43D0-8C78-E1852C469C28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HL7Decoder", "HL7Decoder\src\HL7Decoder.csproj", "{1081CB07-02A5-4D4B-93C2-A53219842A7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HL7test", "HL7Decoder\test\HL7test.csproj", "{C1D477B6-3BB5-4ADD-8939-9FEBBB88F582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpManager", "..\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\HttpManager.csproj", "{59ED45F5-9DC6-4A45-BC6C-F27DFC9843A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrilliumReportWebApplication", "TrilliumReportWebApplication\TrilliumReportWebApplication.csproj", "{4107DAF2-7C94-4FF7-817C-009238A84604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriliumAgent", "TriliumAPI\TriliumAgent.csproj", "{90D32501-EA8D-4B00-BF4B-2B29589D6F0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77609D6F-2975-4FEA-B124-AAD8CC35B4A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77609D6F-2975-4FEA-B124-AAD8CC35B4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77609D6F-2975-4FEA-B124-AAD8CC35B4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77609D6F-2975-4FEA-B124-AAD8CC35B4A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CFDE8F2-405B-40B7-B5B4-6B5FC1382950}.Debug|Any CPU.ActiveCfg = Debug
+		{5CFDE8F2-405B-40B7-B5B4-6B5FC1382950}.Release|Any CPU.ActiveCfg = Release
+		{D64CE89F-108C-448C-89E0-284B32986F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64CE89F-108C-448C-89E0-284B32986F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64CE89F-108C-448C-89E0-284B32986F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64CE89F-108C-448C-89E0-284B32986F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA44190-61C2-4F5E-B130-E6F4F7F755A4}.Debug|Any CPU.ActiveCfg = Debug
+		{9DA44190-61C2-4F5E-B130-E6F4F7F755A4}.Release|Any CPU.ActiveCfg = Release
+		{81E83E99-76F8-41C0-84B4-D964BC391F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E83E99-76F8-41C0-84B4-D964BC391F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E83E99-76F8-41C0-84B4-D964BC391F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E83E99-76F8-41C0-84B4-D964BC391F70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AC55433-F07F-47EE-AED3-546F74543BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC55433-F07F-47EE-AED3-546F74543BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC55433-F07F-47EE-AED3-546F74543BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC55433-F07F-47EE-AED3-546F74543BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F586DC2-185A-43D0-8C78-E1852C469C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F586DC2-185A-43D0-8C78-E1852C469C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F586DC2-185A-43D0-8C78-E1852C469C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F586DC2-185A-43D0-8C78-E1852C469C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1081CB07-02A5-4D4B-93C2-A53219842A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1081CB07-02A5-4D4B-93C2-A53219842A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1081CB07-02A5-4D4B-93C2-A53219842A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1081CB07-02A5-4D4B-93C2-A53219842A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D477B6-3BB5-4ADD-8939-9FEBBB88F582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D477B6-3BB5-4ADD-8939-9FEBBB88F582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D477B6-3BB5-4ADD-8939-9FEBBB88F582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D477B6-3BB5-4ADD-8939-9FEBBB88F582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59ED45F5-9DC6-4A45-BC6C-F27DFC9843A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59ED45F5-9DC6-4A45-BC6C-F27DFC9843A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59ED45F5-9DC6-4A45-BC6C-F27DFC9843A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59ED45F5-9DC6-4A45-BC6C-F27DFC9843A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4107DAF2-7C94-4FF7-817C-009238A84604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4107DAF2-7C94-4FF7-817C-009238A84604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4107DAF2-7C94-4FF7-817C-009238A84604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4107DAF2-7C94-4FF7-817C-009238A84604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D32501-EA8D-4B00-BF4B-2B29589D6F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D32501-EA8D-4B00-BF4B-2B29589D6F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D32501-EA8D-4B00-BF4B-2B29589D6F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D32501-EA8D-4B00-BF4B-2B29589D6F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7200746-BB82-4339-8D39-94A9B933E41F}
+	EndGlobalSection
+EndGlobal
