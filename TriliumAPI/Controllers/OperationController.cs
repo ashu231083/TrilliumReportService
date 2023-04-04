@@ -29,8 +29,8 @@ namespace TriliumAgent.Controllers
         private const string _logName = "TriliumAgentServer";
         List<requestdata> data = new List<requestdata>();
 
-        [ActionName("test")]
-        public string GetTest(HttpRequestMessage requestMessage, string str)
+        [ActionName("Encrypt")]
+        public JObject GetEncrypt(HttpRequestMessage requestMessage, string str)
         {
             string key = "MModalXml";
             HelperClass HC = new HelperClass();
@@ -38,11 +38,14 @@ namespace TriliumAgent.Controllers
             string encrypted_str = HC.EncryptString(str, key, Encoding.Unicode);
 
 
-            Console.WriteLine("str: " + str + ", encrypted_str: " + encrypted_str);
+            //Console.WriteLine("str: " + str + ", encrypted_str: " + encrypted_str);
 
-            var result = str;
+            string result = "{\"success\":\"True\",\"encrypted_str\":\"" + encrypted_str + "\"}";
 
-            return str;
+
+            JObject json = JObject.Parse(result);
+
+            return json;
 
 
         }
