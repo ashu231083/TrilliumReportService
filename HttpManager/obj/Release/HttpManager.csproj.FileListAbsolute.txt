@@ -1,0 +1,16 @@
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Release\HttpManager.dll.config
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Release\HttpManager.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Release\HttpManager.pdb
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Release\EncryptionManager.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Release\LoggerManager.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Release\Newtonsoft.Json.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Release\NLog.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Release\EncryptionManager.pdb
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Release\LoggerManager.pdb
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Release\Newtonsoft.Json.xml
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Release\NLog.xml
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\obj\Release\HttpManager.csproj.AssemblyReference.cache
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\obj\Release\HttpManager.csproj.CoreCompileInputs.cache
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\obj\Release\HttpManager.csproj.CopyComplete
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\obj\Release\HttpManager.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\obj\Release\HttpManager.pdb

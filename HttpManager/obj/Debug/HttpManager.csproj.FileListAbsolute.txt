@@ -1,0 +1,32 @@
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServer BKP_221122\HttpManager\bin\Debug\NLog.config
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServer BKP_221122\HttpManager\bin\Debug\HttpManager.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServer BKP_221122\HttpManager\bin\Debug\HttpManager.pdb
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServer BKP_221122\HttpManager\bin\Debug\EncryptionManager.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServer BKP_221122\HttpManager\bin\Debug\LoggerManager.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServer BKP_221122\HttpManager\bin\Debug\Newtonsoft.Json.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServer BKP_221122\HttpManager\bin\Debug\NLog.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServer BKP_221122\HttpManager\bin\Debug\EncryptionManager.pdb
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServer BKP_221122\HttpManager\bin\Debug\LoggerManager.pdb
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServer BKP_221122\HttpManager\bin\Debug\Newtonsoft.Json.xml
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServer BKP_221122\HttpManager\bin\Debug\NLog.xml
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServer BKP_221122\HttpManager\obj\Debug\HttpManager.csproj.AssemblyReference.cache
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServer BKP_221122\HttpManager\obj\Debug\HttpManager.csproj.CoreCompileInputs.cache
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServer BKP_221122\HttpManager\obj\Debug\HttpManager.csproj.CopyComplete
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServer BKP_221122\HttpManager\obj\Debug\HttpManager.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServer BKP_221122\HttpManager\obj\Debug\HttpManager.pdb
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Debug\HttpManager.dll.config
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Debug\HttpManager.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Debug\HttpManager.pdb
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Debug\EncryptionManager.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Debug\LoggerManager.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Debug\Newtonsoft.Json.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Debug\NLog.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Debug\EncryptionManager.pdb
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Debug\LoggerManager.pdb
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Debug\Newtonsoft.Json.xml
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\bin\Debug\NLog.xml
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\obj\Debug\HttpManager.csproj.AssemblyReference.cache
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\obj\Debug\HttpManager.csproj.CoreCompileInputs.cache
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\obj\Debug\HttpManager.csproj.CopyComplete
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\obj\Debug\HttpManager.dll
+D:\DMS_WORKSPACE\DICOM\DICOM\DicomServerBKP_221122_ON_05012023\HttpManager\obj\Debug\HttpManager.pdb
